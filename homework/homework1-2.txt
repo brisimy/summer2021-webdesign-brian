@@ -1,0 +1,12 @@
+brisimy@penguin:~$ ls
+code_1.56.2-1620838498_amd64.deb  git-cheat-sheet-education.pdf  recovery-codes  summer2021-webdesign-brian  summer2021-webdesign-eduardo
+brisimy@penguin:~$ cd summer2021-webdesign-brian
+brisimy@penguin:~/summer2021-webdesign-brian$ mkdir homework
+brisimy@penguin:~/summer2021-webdesign-brian$ ls
+assignments  handouts  homework  projects
+brisimy@penguin:~/summer2021-webdesign-brian$ cd homework
+brisimy@penguin:~/summer2021-webdesign-brian/homework$ ls
+brisimy@penguin:~/summer2021-webdesign-brian/homework$ touch homework1-2.txt
+brisimy@penguin:~/summer2021-webdesign-brian/homework$ ls
+homework1-2.txt
+brisimy@penguin:~/summer2021-webdesign-brian/homework$ 
