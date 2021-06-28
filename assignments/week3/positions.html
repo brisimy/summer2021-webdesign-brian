@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+<meta charset="utf-8"/>
+<title>CSS Positions</title>
+
+<style>
+    body{
+        border: 5px solid black;
+        height: 10000px;
+    }
+    #orange,#black, #grey,#almond{
+        width:200px;    
+        height: 200px;
+    }
+    #orange{
+        background-color:orange;
+        position:absolute;
+        top: 50px;
+        left: 100px;
+        z-index: 2;
+    }
+    #black{
+        background-color:black;
+        position: relative;
+        top: 100px;
+        left:150px;
+    }
+    #grey{
+        background-color: grey;
+        position: fixed;
+        top:0;
+        left:0;
+    }
+    #almond{
+        background-color:blanchedalmond;
+        position:sticky;
+        top:0;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    
+</style>
+</head>
+
+<body>
+    <div id="orange"> </div>
+    <div id="black"> </div>
+    <div id="grey"> </div>
+    <div id="almond"> </div>
+
+
+
+</body>
+
+   
+    
+
+
+<html>
