@@ -5,13 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Introduction to Javascript</title>
-    <script
     
-    ></script>
 </head>
 <body>
-    <script>
-        console.log("hello");
+<!--
+       console.log("hello");
         var myFirstVariable = "hello";
         console.log(myFirstVariable);
         var number1 = 22;
@@ -74,7 +72,58 @@ function hypotenuse() {
     var results = Math.sqrt(squareSum);
     console.log(results);
         
-    </script>
+    function add2Numbers (number1, number2) {
+        var sum = number1 - number2;
+        return sum;
+
+    }
+    var myResult = addNumbers ();
+    var sentToConsole = add2numbers (7,13);
+-->
+<script>
+    //Arrays & objects
+
+thisIsAVariable = "Another thing";
+var firstDay  = "Monday";
+var secondDay = "Tuesday";
+var myArray = [];
+var mySecondArray = [1,2,3,4,5];
+console.log(mySecondArray);
+var myThirdArray = [ "A", "B", "C"];
+var mynum = mySecondArray [3];
+console.log(mynum);
+console.log (myThirdArray.pop());
+console.log(myThirdArray);
+myThirdArray.push("c")
+console.log(myThirdArray);
+
+
+var mapShapeCoords = [[14,28],
+[19,36],
+[8,32],
+]
+//Objects
+// Objects are values  
+var myFirstObject = {};
+if (false) {}
+var mySecondObject = {"name":"Brian", 
+"age":40,
+};
+var myEmployee1 = ["Brian", 40,"owner", "Starbucks"];
+
+var myEmployee2 = {
+    "name": "Brian",
+    "age": 40,
+    "status":"temporary",
+    "employer":"Starbucks",
+    "active": true
+};
+console.log(myEmployee2["status"])
+myEmployee2.status;
+myEmployee2.name = "brisimy";
+console.log(myEmployee2);
+</script>
+
 </body>
 
 </html>
