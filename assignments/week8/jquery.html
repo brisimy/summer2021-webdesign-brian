@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro to jQuery</title>
+    <script>src="jquery-3.6.0.min.js"
+    </script>
+</head>
+<body>
+
+<button id="darkmode">Dark Mode</button>
+
+<button id="lightmode">Light Mode</button>
+
+<br />
+<label>First Number</label>
+<input type = "number"/>
+
+<label>Second Number</label>
+<input type = "number"/>
+
+<br />
+<button id ="calculate">Calculate!</button>
+
+<h1>My Webpage</h1>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id dolore nam aliquid repudiandae aliquam tenetur quas nemo, architecto suscipit repellat earum provident repellendus minima nostrum ducimus. Consequuntur facere optio fuga!</p>
+    <script>
+        Math.random();//0-.9~Never will actually reach 1.
+        for (var i = 0; i < 100; i++){console.log(Math.random());}
+
+        Math.random()* 256
+
+        Math.floor(10.5);//rounds down regardless of decimal number. 
+        Math.ceil(10.1);//rounds up regardless of decimal number.
+        Math.round(10.5);
+    
+        (Math.random()*10) + 1
+        Math.floor((Math.random() * 5) +5)
+
+        //Make sure you have Document Ready statement for jQuery.
+        // $() is the jQuery function, you can also write jQuery(); $(document).ready (function (){}); // DEPRECATED 
+
+        $(function(){
+
+            $("#darkmode").click(function()
+            {console.log("Clicked");
+            $("body").css("background-color","black");
+            $("body").css("color","white");
+            
+        });
+        var myHeadings = $("h1");
+        myHeadings.css("background-color","rgb(255,0,0)");
+        myHeadings.css("color","rgb(0,255,0)");
+
+        //$(".myClass");
+        //$("#myID");
+        //$("ul li");
+    
+    });
+    </script>
+</body>
+</html>
