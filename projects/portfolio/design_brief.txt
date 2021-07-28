@@ -1,0 +1,22 @@
+The color that I would use is blues, grey, and white. Blue exudes confidence and trust. White and grey are very clean. 
+
+I would like to use the font Alfa Slab One. It's dramatic and media/marketing looking. I think it expresses the vide of professionalism and brand/marketing savvy.
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+
+font-family: 'Alfa Slab One', cursive;
+
+ABOUT ME 
+
+Brian is grew up San Jose, California and has lived in San Francisco since 2002. Before dabbling in email and ux design he worked in marketing and brand agency learning that best practices that impacted the goals of those clients. 
+
+These experiences and an interest in research led him to purse a master's in social psychology which emphasized emotions, motivation, goal pursuits. 
+
+Now he looks to take these experiences and interest an use in ux design. Be able to trust his intuition in the design of computer applications brings Brian so much joy and allow to him to follow inclination to help others and things. 
+
+
+CONTACTS 
+
+PROJECTS
